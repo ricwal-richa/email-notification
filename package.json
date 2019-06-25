@@ -1,0 +1,23 @@
+{
+  "name": "email-notification",
+  "version": "1.0.0",
+  "description": "This project uses mailosaur api service to search for emails by link and/or subject from email server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "mailosaur",
+    "email-notification",
+    "email"
+  ],
+  "author": "Richa Agarwal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "mailosaur": "^5.0.8"
+  },
+  "devDependencies": {
+    "@stamp/it": "^1.1.0"
+  }
+}
